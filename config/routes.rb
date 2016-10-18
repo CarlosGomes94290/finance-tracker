@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
   root 'welcome#index'
 
-  get 'my_portofolio', to: "users#my_portofolio"
+  get 'my_portfolio', to: "users#my_portfolio"
 
   get 'search_stocks', to: "stocks#search"
   # You can have the root of your site routed with "root"
